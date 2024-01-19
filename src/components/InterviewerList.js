@@ -32,5 +32,9 @@ InterviewerList.propTypes = {
   onChange: PropTypes.func.isRequired,
   interviewers: PropTypes.array.isRequired
 };
+// InterviewerList.propTypes = {
+//   interviewers: PropTypes.array.isRequired
+// };
+
 
 export default InterviewerList;
