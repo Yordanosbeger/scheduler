@@ -10,6 +10,7 @@ import reducer, {
 
 import useRealTimeUpdate from "hooks/useRealtimeUpdate";
 
+
 export default function useApplicationData() {
   const [state, dispatch] = useReducer(reducer, {
     day: "Monday",
